@@ -60,8 +60,8 @@ class SiteSetting(db.Model):
     id=db.Column(db.Integer,primary_key=True); key=db.Column(db.String(100),unique=True,nullable=False); value=db.Column(db.Text,default='')
 
 DEFAULT_SETTINGS={
- 'company_name':'Dịch Vụ Thiên Bảo','hotline':'0926973838','email':'','address':'Hà Nội và khu vực lân cận',
- 'facebook_url':'','zalo_url':'https://zalo.me/0926973838','tiktok_url':'','youtube_url':'','maps_url':'',
+ 'company_name':'Dịch Vụ Thiên Bảo','hotline':'0866146497','email':'','address':'Hà Nội và khu vực lân cận',
+ 'facebook_url':'','zalo_url':'https://zalo.me/0866146497','tiktok_url':'','youtube_url':'','maps_url':'',
  'logo_text':'THIÊN BẢO','hero_title':'Bốc xếp chuyên nghiệp – Có mặt nhanh tại Hà Nội',
  'hero_subtitle':'Đội ngũ khỏe, kỷ luật, linh hoạt theo giờ, ca, ngày. Báo giá rõ ràng và cam kết tiến độ.',
  'hero_image':'','footer_text':'Bốc xếp, vận chuyển và cung ứng nhân công chuyên nghiệp.','copyright':'Dịch Vụ Thiên Bảo',
